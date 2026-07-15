@@ -1,0 +1,268 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="dark light">
+  <meta name="description" content="Terms of Service for the Tetora Discord bot.">
+  <meta property="og:title" content="Tetora Terms of Service">
+  <meta property="og:description" content="The rules and conditions for installing and using the Tetora Discord bot.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://zaelrae.github.io/tetora-privacy/terms/">
+  <link rel="canonical" href="https://zaelrae.github.io/tetora-privacy/terms/">
+  <title>Tetora Terms of Service</title>
+  <style>
+    :root {
+      color-scheme: dark;
+      --background: #11131c;
+      --surface: #1b1e2b;
+      --surface-soft: #24283a;
+      --text: #f3f4fb;
+      --muted: #b8bdd3;
+      --accent: #9d8cff;
+      --accent-soft: #d5ceff;
+      --border: #363b52;
+      --focus: #ffffff;
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      background:
+        radial-gradient(circle at top left, rgba(111, 87, 255, 0.18), transparent 34rem),
+        var(--background);
+      color: var(--text);
+      line-height: 1.65;
+    }
+
+    .skip-link {
+      position: fixed;
+      top: 0.75rem;
+      left: 0.75rem;
+      z-index: 10;
+      padding: 0.65rem 0.9rem;
+      border-radius: 8px;
+      background: var(--focus);
+      color: var(--background);
+      transform: translateY(-180%);
+    }
+
+    .skip-link:focus { transform: translateY(0); }
+    main { width: min(100% - 2rem, 920px); margin: 0 auto; padding: 4.5rem 0 5rem; }
+
+    header, nav, section {
+      background: rgba(27, 30, 43, 0.94);
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      box-shadow: 0 18px 50px rgba(0, 0, 0, 0.18);
+    }
+
+    header { padding: clamp(1.5rem, 5vw, 3rem); }
+    nav, section { padding: 1.6rem clamp(1.25rem, 4vw, 2.2rem); margin-top: 1rem; }
+    nav ul {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.55rem 1.25rem;
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    .eyebrow {
+      margin: 0 0 0.6rem;
+      color: var(--accent-soft);
+      font-size: 0.82rem;
+      font-weight: 750;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+    }
+
+    h1, h2 { line-height: 1.2; }
+    h1 { margin: 0; font-size: clamp(2.2rem, 8vw, 4.2rem); letter-spacing: -0.045em; }
+    h2 { margin: 0 0 0.8rem; font-size: 1.32rem; }
+    p, ul { color: var(--muted); }
+    p:last-child, ul:last-child { margin-bottom: 0; }
+    .lead { max-width: 64ch; margin: 1rem 0 0; font-size: 1.08rem; }
+    .updated { margin: 1.4rem 0 0; color: var(--accent-soft); font-size: 0.92rem; }
+    .notice {
+      margin-top: 1rem;
+      padding: 1rem 1.1rem;
+      border-left: 4px solid var(--accent);
+      border-radius: 8px;
+      background: var(--surface-soft);
+      color: var(--muted);
+    }
+
+    a { color: var(--accent-soft); text-underline-offset: 0.2em; }
+    a:hover { color: #ffffff; }
+    a:focus-visible { outline: 2px solid var(--focus); outline-offset: 3px; }
+    footer { padding: 1.5rem 0 0; color: var(--muted); text-align: center; font-size: 0.9rem; }
+
+    @media (max-width: 680px) { main { padding-top: 1rem; } }
+    @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+  </style>
+</head>
+<body>
+  <a class="skip-link" href="#terms">Skip to terms</a>
+  <main id="terms">
+    <header>
+      <p class="eyebrow">Tetora Discord Bot</p>
+      <h1>Terms of Service</h1>
+      <p class="lead">
+        These terms set out the conditions for installing, configuring, and using Tetora.
+        By adding Tetora to a Discord server or using its features, you agree to these terms.
+      </p>
+      <p class="updated">Effective and last updated: 15 July 2026</p>
+    </header>
+
+    <nav aria-label="Terms sections">
+      <ul>
+        <li><a href="#service">The service</a></li>
+        <li><a href="#eligibility">Eligibility</a></li>
+        <li><a href="#admins">Administrators</a></li>
+        <li><a href="#acceptable-use">Acceptable use</a></li>
+        <li><a href="#moderation">Moderation</a></li>
+        <li><a href="#availability">Availability</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <section id="service">
+      <h2>1. The service</h2>
+      <p>
+        Tetora is an independently operated Discord bot that provides configurable
+        moderation, member-management, ticket, giveaway, announcement, FAQ, economy, XP,
+        and related server features. Features may differ between servers because server
+        administrators choose which features to enable and how to configure them.
+      </p>
+    </section>
+
+    <section id="eligibility">
+      <h2>2. Eligibility and Discord's rules</h2>
+      <p>
+        You may use Tetora only if you are permitted to use Discord and your use complies
+        with Discord's Terms of Service, Community Guidelines, Developer Terms where
+        applicable, and all laws and regulations that apply to you. If a Discord server has
+        a higher minimum age or other access requirements, those server rules also apply.
+      </p>
+    </section>
+
+    <section id="admins">
+      <h2>3. Server administrators</h2>
+      <p>
+        A person who installs or configures Tetora represents that they have authority to do
+        so for that server. Server administrators are responsible for choosing appropriate
+        permissions, channels, roles, safeguards, retention practices, and feature settings;
+        informing their members about applicable server rules and bot use; reviewing
+        staff-facing alerts; and ensuring their configuration is lawful and suitable for
+        their community.
+      </p>
+      <p>
+        Administrators must not grant Tetora permissions beyond those reasonably needed for
+        the enabled features. They remain responsible for moderator decisions and for
+        controlling which staff members can access tickets, moderation cases, settings, and
+        other restricted information.
+      </p>
+    </section>
+
+    <section id="acceptable-use">
+      <h2>4. Acceptable use</h2>
+      <p>You must not use Tetora to:</p>
+      <ul>
+        <li>break the law, Discord's rules, or another person's rights;</li>
+        <li>harass, threaten, exploit, deceive, or unlawfully discriminate against anyone;</li>
+        <li>distribute malware, phishing, scams, spam, or other harmful material;</li>
+        <li>evade moderation, access controls, rate limits, or other safety measures;</li>
+        <li>gain unauthorised access to Tetora, its host, data, tokens, or another server;</li>
+        <li>interfere with the service, probe it for vulnerabilities without prior permission, or impose an unreasonable load; or</li>
+        <li>use Tetora's outputs or automation as the sole basis for a high-impact decision where human review is reasonably required.</li>
+      </ul>
+      <p>
+        You are responsible for content and configuration you submit through Tetora and must
+        have the rights and permissions needed for that material. You allow Tetora to
+        process it only as needed to operate, secure, and improve the requested features.
+      </p>
+    </section>
+
+    <section id="moderation">
+      <h2>5. Moderation and automated actions</h2>
+      <p>
+        Tetora's moderation and anti-abuse systems assist server staff; they do not replace
+        human judgement. Automated systems can produce false positives, miss harmful
+        activity, or act on incomplete context. Configurable safeguards may escalate
+        uncertain incidents for staff review, but server administrators remain responsible
+        for reviewing significant actions and handling appeals under their own rules.
+      </p>
+      <p class="notice">
+        Tetora is not an emergency service. If someone is in immediate danger, contact the
+        appropriate local emergency service or platform safety channel.
+      </p>
+    </section>
+
+    <section id="privacy">
+      <h2>6. Privacy</h2>
+      <p>
+        Tetora's collection, use, retention, security, and deletion of data are described in
+        the <a href="../">Tetora Privacy Policy</a>. By using Tetora, you acknowledge that
+        data will be processed as described there and according to the features configured
+        in the relevant Discord server.
+      </p>
+    </section>
+
+    <section id="availability">
+      <h2>7. Availability and changes</h2>
+      <p>
+        Tetora is provided on an as-available basis. Maintenance, outages, Discord API
+        changes, security incidents, or other circumstances may interrupt or change the
+        service. No particular feature, response time, uptime, or preservation of data is
+        guaranteed. Features or these terms may be changed as the bot develops; material
+        changes will be posted on this page with a revised effective date.
+      </p>
+    </section>
+
+    <section id="suspension">
+      <h2>8. Suspension and termination</h2>
+      <p>
+        Access to Tetora may be limited or terminated when reasonably necessary to protect
+        users or the service, respond to abuse or legal requirements, enforce these terms,
+        or discontinue the service. Server administrators may remove Tetora at any time and
+        may request deletion as described in the Privacy Policy.
+      </p>
+    </section>
+
+    <section id="disclaimers">
+      <h2>9. Disclaimers and liability</h2>
+      <p>
+        To the extent permitted by law, Tetora is provided without warranties of
+        uninterrupted operation, accuracy, fitness for a particular purpose, or
+        non-infringement. The operator is not liable for indirect, incidental, special,
+        consequential, or punitive loss arising from the use of or inability to use Tetora,
+        including losses caused by server configuration, moderator decisions, Discord
+        outages, or third-party conduct.
+      </p>
+      <p>
+        Nothing in these terms excludes a right, warranty, or liability that cannot legally
+        be excluded or limited. If any provision is unenforceable, the remaining provisions
+        continue to apply.
+      </p>
+    </section>
+
+    <section id="contact">
+      <h2>10. Contact</h2>
+      <p>
+        Questions about these terms can be sent to
+        <a href="mailto:zaelrae@pm.me?subject=Tetora%20Terms%20of%20Service">zaelrae@pm.me</a>.
+        For a privacy or data request, follow the instructions in the
+        <a href="../#requests">Privacy Policy</a>.
+      </p>
+    </section>
+
+    <footer>
+      <p><a href="../">Privacy Policy</a> · <a href="mailto:zaelrae@pm.me">Contact</a></p>
+      <p><a href="https://github.com/Zaelrae/tetora-privacy">View the policy source on GitHub</a></p>
+    </footer>
+  </main>
+</body>
+</html>
