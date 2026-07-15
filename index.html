@@ -1,0 +1,236 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="dark light">
+  <meta name="description" content="Privacy policy for the Tetora Discord bot.">
+  <title>Tetora Privacy Policy</title>
+  <style>
+    :root {
+      color-scheme: dark;
+      --background: #11131c;
+      --surface: #1b1e2b;
+      --surface-soft: #24283a;
+      --text: #f3f4fb;
+      --muted: #b8bdd3;
+      --accent: #9d8cff;
+      --accent-soft: #d5ceff;
+      --border: #363b52;
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      background:
+        radial-gradient(circle at top left, rgba(111, 87, 255, 0.18), transparent 34rem),
+        var(--background);
+      color: var(--text);
+      line-height: 1.65;
+    }
+
+    main {
+      width: min(100% - 2rem, 880px);
+      margin: 0 auto;
+      padding: 4.5rem 0 5rem;
+    }
+
+    header, section, .summary {
+      background: rgba(27, 30, 43, 0.94);
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      box-shadow: 0 18px 50px rgba(0, 0, 0, 0.18);
+    }
+
+    header { padding: clamp(1.5rem, 5vw, 3rem); }
+    section { padding: 1.6rem clamp(1.25rem, 4vw, 2.2rem); margin-top: 1rem; }
+
+    .eyebrow {
+      margin: 0 0 0.6rem;
+      color: var(--accent-soft);
+      font-size: 0.82rem;
+      font-weight: 750;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+    }
+
+    h1, h2 { line-height: 1.2; }
+    h1 { margin: 0; font-size: clamp(2.2rem, 8vw, 4.2rem); letter-spacing: -0.045em; }
+    h2 { margin: 0 0 0.8rem; font-size: 1.32rem; }
+    p, ul { color: var(--muted); }
+    p:last-child, ul:last-child { margin-bottom: 0; }
+
+    .lead { max-width: 62ch; margin: 1rem 0 0; font-size: 1.08rem; }
+    .updated { margin: 1.4rem 0 0; color: var(--accent-soft); font-size: 0.92rem; }
+
+    .summary {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1px;
+      margin: 1rem 0;
+      overflow: hidden;
+      background: var(--border);
+    }
+
+    .summary div { padding: 1.25rem; background: var(--surface-soft); }
+    .summary strong { display: block; margin-bottom: 0.35rem; }
+    .summary span { color: var(--muted); font-size: 0.92rem; }
+
+    a { color: var(--accent-soft); text-underline-offset: 0.2em; }
+    a:hover { color: #ffffff; }
+    code { color: var(--accent-soft); }
+
+    footer { padding: 1.5rem 0 0; color: var(--muted); text-align: center; font-size: 0.9rem; }
+
+    @media (max-width: 680px) {
+      main { padding-top: 1rem; }
+      .summary { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <p class="eyebrow">Tetora Discord Bot</p>
+      <h1>Privacy policy</h1>
+      <p class="lead">
+        This policy explains what data Tetora processes, why it is needed, how long it is
+        kept, and how to request access or deletion.
+      </p>
+      <p class="updated">Effective and last updated: 15 July 2026</p>
+    </header>
+
+    <div class="summary" aria-label="Privacy summary">
+      <div><strong>No data sales</strong><span>Tetora does not sell data or use it for advertising.</span></div>
+      <div><strong>No AI training</strong><span>Message content is not used to train machine-learning models.</span></div>
+      <div><strong>30-day evidence limit</strong><span>Saved moderation excerpts are automatically redacted.</span></div>
+    </div>
+
+    <section>
+      <h2>1. Who operates Tetora</h2>
+      <p>
+        Tetora is an independently operated Discord bot. Privacy questions and data
+        requests can be sent to <a href="mailto:zaelrae@pm.me">zaelrae@pm.me</a>.
+        Include your Discord user ID and the relevant server ID so the correct records can
+        be located without collecting unnecessary identity documents.
+      </p>
+    </section>
+
+    <section>
+      <h2>2. Data Tetora processes</h2>
+      <ul>
+        <li><strong>Discord identifiers and member details:</strong> server, user, channel, role, and message IDs; usernames or display names; role membership; join, leave, boost, and account timing information needed for configured server features.</li>
+        <li><strong>Server configuration:</strong> feature settings, selected channels and roles, panel configuration, FAQs, scheduled announcements, and similar administrator-provided content.</li>
+        <li><strong>Feature records:</strong> XP, levels, economy balances and transactions, giveaways and entries, tickets, moderation cases, verification status, and audit details such as the responsible moderator and timestamp.</li>
+        <li><strong>Message content:</strong> content is examined when needed for commands, XP, moderation and anti-spam rules, FAQs, summaries, or other enabled features. Ordinary message content is processed in memory and is not persistently stored by Tetora.</li>
+        <li><strong>Moderation evidence:</strong> when automation escalates an uncertain incident for human review, relevant message excerpts and their channel/message references may be stored with the case.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>3. Age verification</h2>
+      <p>
+        If a server uses Tetora's 18+ verification workflow, an authorised moderator may
+        provide a date of birth to determine whether the member is 18 or older. Tetora
+        uses that value only to make the age decision and does not store the date of birth.
+        It retains the verification result, relevant Discord IDs, display name, verifier,
+        and verification time for server administration and audit purposes. Images or ID
+        documents used by moderators are not uploaded to or stored in Tetora's database.
+      </p>
+    </section>
+
+    <section>
+      <h2>4. How the data is used</h2>
+      <p>
+        Data is used only to provide and secure the features configured by each Discord
+        server: moderation and anti-abuse protections, roles and member lifecycle actions,
+        support tickets, giveaways, announcements, FAQs, economy and XP systems, settings,
+        and requested bot responses. Records and configuration are scoped by Discord server.
+      </p>
+    </section>
+
+    <section>
+      <h2>5. AI-assisted features</h2>
+      <p>
+        When someone deliberately uses an AI command, the prompt and any context needed for
+        that request may be sent to the operator-configured, self-hosted language-model
+        service. For example, a summary request needs the selected recent messages. Tetora
+        does not use message content to train AI or machine-learning models, and the bot does
+        not persist ordinary AI prompts or responses in its database. The model service is
+        hosted on operator-controlled infrastructure rather than being used for advertising
+        or data brokerage.
+      </p>
+    </section>
+
+    <section>
+      <h2>6. Retention</h2>
+      <ul>
+        <li>Ordinary message content is processed transiently and is not persistently stored by Tetora.</li>
+        <li>Message excerpts attached to moderation reviews are automatically removed no later than 30 days after the case is created. The case outcome and non-content audit metadata may remain.</li>
+        <li>Server settings and feature records remain while needed to provide the feature, maintain safety or audit history, or until the relevant user or server administrator requests deletion, subject to legitimate security and operational needs.</li>
+        <li>Data for a server that permanently removes Tetora may be deleted on request using the contact details in this policy.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>7. Sharing and disclosure</h2>
+      <p>
+        Tetora does not sell personal data, build advertising profiles, or share data with
+        data brokers. Data is handled through Discord and operator-controlled infrastructure,
+        including the self-hosted AI service when an AI feature is invoked. It may also be
+        disclosed when reasonably necessary to comply with law, protect users, investigate
+        abuse, or secure the service.
+      </p>
+    </section>
+
+    <section>
+      <h2>8. Security</h2>
+      <p>
+        Access to Tetora's host and database is restricted to the operator and the bot's
+        dedicated operating-system account. The operator uses technical and administrative
+        safeguards appropriate to a self-hosted service, limits the data Tetora retains,
+        and applies automated retention to moderation evidence. No internet service can
+        guarantee absolute security.
+      </p>
+    </section>
+
+    <section>
+      <h2>9. Your choices and requests</h2>
+      <p>
+        Server administrators can disable or reconfigure Tetora features. Depending on the
+        feature, leaving a server or deleting a Discord message may not remove a separate
+        audit or transaction record. To ask what data Tetora has about you, correct it, or
+        request deletion, email <a href="mailto:zaelrae@pm.me">zaelrae@pm.me</a> with your
+        Discord user ID and server ID. Requests are reviewed against security, moderation,
+        and legal retention needs, and the operator may need to verify control of the
+        relevant Discord account.
+      </p>
+    </section>
+
+    <section>
+      <h2>10. Children</h2>
+      <p>
+        Tetora is not directed to children under the minimum age required to use Discord.
+        Individual servers may set higher age requirements. If you believe a child has
+        provided data to Tetora contrary to those requirements, contact the operator.
+      </p>
+    </section>
+
+    <section>
+      <h2>11. Discord and policy changes</h2>
+      <p>
+        Discord independently processes information under its own policies; this document
+        covers Tetora's handling of data and does not replace Discord's privacy policy.
+        This policy may change as Tetora's features or legal obligations change. Material
+        updates will be posted on this page with a revised date.
+      </p>
+    </section>
+
+    <footer>
+      <p>Tetora privacy contact: <a href="mailto:zaelrae@pm.me">zaelrae@pm.me</a></p>
+    </footer>
+  </main>
+</body>
+</html>
