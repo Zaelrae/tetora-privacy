@@ -1,7 +1,7 @@
 # Tetora privacy policy
 
-This repository hosts Tetora's public privacy policy as a small, tracking-free GitHub
-Pages site.
+This repository hosts Tetora's public Privacy Policy and Terms of Service as a small,
+tracking-free GitHub Pages site.
 
 ## Publish with GitHub Pages
 
@@ -11,6 +11,8 @@ Pages site.
 4. After GitHub finishes the deployment, the policy will be available at
    <https://zaelrae.github.io/tetora-privacy/>.
 
-The bot's `PRIVACY_POLICY_URL` should point to that address. Update `index.html` whenever
+The Privacy Policy is available at the root address and the Terms of Service at
+<https://zaelrae.github.io/tetora-privacy/terms/>. The bot's `PRIVACY_POLICY_URL` should
+point to the root address. Update `index.html` whenever
 Tetora's data use or retention changes, and change the effective date with each material
 revision.
